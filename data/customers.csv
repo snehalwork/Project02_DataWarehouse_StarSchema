@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,gender,city,email,created_date
+101,Snehal,Thombre,Male,Pune,snehal@gmail.com,2026-07-01
+102,Rahul,Sharma,Male,Mumbai,rahul@gmail.com,2026-07-02
+103,Priya,Patil,Female,Nashik,priya@gmail.com,2026-07-03
+104,Amit,Kumar,Male,Nagpur,amit@gmail.com,2026-07-04
+105,Neha,Joshi,Female,Pune,neha@gmail.com,2026-07-05
+106,Rohan,Patil,Male,Pune,rohan@gmail.com,2026-07-06
+107,Anjali,Sharma,Female,Mumbai,anjali@gmail.com,2026-07-07
+108,Vikram,Singh,Male,Delhi,vikram@gmail.com,2026-07-08
+109,Pooja,Verma,Female,Jaipur,pooja@gmail.com,2026-07-09
+110,Karan,Mehta,Male,Ahmedabad,karan@gmail.com,2026-07-10
