@@ -90,6 +90,14 @@ Generic Dimension Loader
 
 #  Star Schema
 
+                 dim_customer
+                      │
+                      │
+dim_product ───── fact_sales ───── dim_region
+                      │
+                      │
+                  dim_date
+
 ## Dimension Tables
 
 - dim_customer
@@ -254,4 +262,4 @@ Snehal Dhagadi
 
 Data Engineer
 
-Thank you
+Thank you!
