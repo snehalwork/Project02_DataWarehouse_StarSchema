@@ -1,4 +1,4 @@
-# 🏗️ Project 02 - Data Warehouse ETL Pipeline (Star Schema)
+#  Project 02 - Data Warehouse ETL Pipeline (Star Schema)
 
 A complete end-to-end Data Warehouse ETL project built using **Python**, **Pandas**, **SQLAlchemy**, and **MySQL** following a **Star Schema** architecture.
 
@@ -6,7 +6,7 @@ This project extracts data from CSV files, performs data cleaning and validation
 
 ---
 
-# 🚀 Technologies Used
+#  Technologies Used
 
 - Python 3
 - Pandas
@@ -18,7 +18,7 @@ This project extracts data from CSV files, performs data cleaning and validation
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 Project02_DataWarehouse_StarSchema/
@@ -57,7 +57,7 @@ Project02_DataWarehouse_StarSchema/
 
 ---
 
-# ⭐ Project Architecture
+#  Project Architecture
 
 ```
 CSV Files
@@ -88,7 +88,7 @@ Generic Dimension Loader
 
 ---
 
-# ⭐ Star Schema
+#  Star Schema
 
 ## Dimension Tables
 
@@ -103,7 +103,7 @@ Generic Dimension Loader
 
 ---
 
-# ⭐ ETL Pipeline
+#  ETL Pipeline
 
 The ETL process performs the following steps:
 
@@ -121,7 +121,7 @@ The ETL process performs the following steps:
 
 ---
 
-# ⭐ Features
+#  Features
 
 - End-to-End ETL Pipeline
 - Star Schema Data Warehouse
@@ -134,7 +134,7 @@ The ETL process performs the following steps:
 
 ---
 
-# ⭐ Data Validation
+#  Data Validation
 
 The pipeline validates:
 
@@ -146,7 +146,7 @@ The pipeline validates:
 
 ---
 
-# ⭐ Logging
+#  Logging
 
 Execution logs are stored in:
 
@@ -166,7 +166,7 @@ Loaded fact_sales (10 records)
 
 ---
 
-# ⭐ How to Run
+#  How to Run
 
 ## Clone Repository
 
@@ -220,7 +220,7 @@ python -m src.main
 
 ---
 
-# ⭐ Learning Outcomes
+#  Learning Outcomes
 
 This project demonstrates:
 
@@ -237,7 +237,7 @@ This project demonstrates:
 
 ---
 
-# 📌 Future Enhancements
+#  Future Enhancements
 
 - Apache Airflow Scheduling
 - PySpark ETL
@@ -248,7 +248,7 @@ This project demonstrates:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Snehal Dhagadi
 
