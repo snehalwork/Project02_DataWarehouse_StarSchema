@@ -1,8 +1,14 @@
 region_id,region_name,state,country
 1,Pune,Maharashtra,India
 2,Mumbai,Maharashtra,India
-3,Nashik,Maharashtra,India
-4,Nagpur,Maharashtra,India
+3,Nagpur,Maharashtra,India
+4,Nashik,Maharashtra,India
 5,Delhi,Delhi,India
-6,Jaipur,Rajasthan,India
-7,Ahmedabad,Gujarat,India
+6,Bengaluru,Karnataka,India
+7,Hyderabad,Telangana,India
+8,Chennai,Tamil Nadu,India
+9,Kolkata,West Bengal,India
+10,Jaipur,Rajasthan,India
+
+
+

@@ -79,8 +79,20 @@ class LoadFact:
                     {"sale_date": row["sale_date"]}
                 ).scalar()
 
+                
+                if customer_key is None:
+                    print(f"Sale {row['sale_id']}: Customer ID {row['customer_id']} not found")
+
+                if product_key is None:
+                    print(f"Sale {row['sale_id']}: Product ID {row['product_id']} not found")
+
+                if region_key is None:
+                    print(f"Sale {row['sale_id']}: Region ID {row['region_id']} not found")
+
+                if date_key is None:
+                    print(f"Sale {row['sale_id']}: Date {row['sale_date']} not found")
+
                 if None in (customer_key, product_key, region_key, date_key):
-                    print(f"Skipped Sale ID {row['sale_id']} (Lookup Failed)")
                     continue
 
                 connection.execute(

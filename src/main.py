@@ -138,7 +138,7 @@ def main():
 
     date_loader.load_dates(
         engine,
-        datetime(2026, 1, 1),
+        datetime(2025, 1, 1),
         datetime(2026, 12, 31),
     )
 
@@ -178,3 +178,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+

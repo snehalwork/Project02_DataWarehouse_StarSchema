@@ -7,7 +7,8 @@ transform=Transform()
 df=extract.read_csv("data/customers.csv")
 
 transform.validate_columns(
-    df, [
+    df,
+    [
         "customer_id",
         "first_name",
         "last_name",
@@ -15,8 +16,8 @@ transform.validate_columns(
         "city",
         "email",
         "created_date",
-        ],
-        )
+    ],
+)
 df=transform.remove_duplicates(df)
 df=transform.fill_missing_values(df)
 df=transform.clean_strings(df)

@@ -151,11 +151,12 @@ class LoadDimension:
 
     # ==========================
     # Generate & Load Date Dimension
+    # INSERT IGNORE INTO dim_date
     # ==========================
     def load_dates(self, engine, start_date, end_date):
 
         query = text("""
-            INSERT INTO dim_date
+            INSERT IGNORE INTO dim_date
             (
                 date_key,
                 full_date,

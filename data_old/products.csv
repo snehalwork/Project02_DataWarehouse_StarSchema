@@ -1,0 +1,11 @@
+product_id,product_name,category,brand,price
+1001,Laptop,Electronics,Dell,55000
+1002,Mouse,Accessories,Logitech,800
+1003,Keyboard,Accessories,HP,1500
+1004,Monitor,Electronics,Samsung,12000
+1005,Headphones,Accessories,Boat,2500
+1006,Mobile,Electronics,Samsung,30000
+1007,Tablet,Electronics,Apple,45000
+1008,Printer,Office,Canon,9000
+1009,Chair,Furniture,GreenSoul,7000
+1010,Desk,Furniture,Ikea,15000

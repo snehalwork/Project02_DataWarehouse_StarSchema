@@ -10,6 +10,7 @@ engine = db.connect()
 
 loader.load_dates(
     engine,
-    datetime(2026, 1, 1),
+    datetime(2025, 1, 1),
     datetime(2026, 12, 31),
 )
+
